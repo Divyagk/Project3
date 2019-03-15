@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
+
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Cart from './components/Cart'
@@ -32,9 +33,7 @@ import LoginForm from './components/login-form'
 
 
 
-
 class App extends Component {
-
   constructor() {
     super()
     this.state = {
@@ -117,3 +116,25 @@ class App extends Component {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

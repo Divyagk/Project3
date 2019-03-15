@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
 import axios from 'axios'
+// import "./forum.css";
 import './style.css'
 
 class LoginForm extends Component {
@@ -42,7 +43,7 @@ class LoginForm extends Component {
                     })
                     // update the state to redirect to home
                     this.setState({
-                        redirectTo: '/forum'
+                        redirectTo: '/'
                     })
                 }
             }).catch(error => {
