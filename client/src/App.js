@@ -101,6 +101,7 @@ class App extends Component {
                   updateUser={this.updateUser}
                 />}
             />
+           
           </Switch>
         </div>
       </BrowserRouter>
