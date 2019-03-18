@@ -1,6 +1,8 @@
 import React from 'react';
 import axios from 'axios'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+
+
 const Navbar = () => {
 
     return (
@@ -11,6 +13,9 @@ const Navbar = () => {
                 <Link to="/" className="brand-logo" >Fashion House</Link>
 
                 <ul className="right">
+            
+    
+  
                 <li><Link to="/Home">Home</Link></li>
                     <li><Link to="/">Shop</Link></li>
                     <li><Link to="/signup">Signup</Link></li>
@@ -30,6 +35,8 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+
 
 
 
