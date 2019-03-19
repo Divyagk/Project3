@@ -88,8 +88,10 @@ class App extends Component {
 
           <Navbar updateUser={this.updateUser} loggedIn={this.state.loggedIn} />
           <Switch>
+            {/* route for shop */}
             <Route exact path="/" component={Home} />
             <Route path="/cart" component={Cart} />
+            {/* route for mainpage or front page */}
             <Route path="/Home" component={home} />
 
             <Route
