@@ -1,13 +1,26 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const commentSchema = new Schema({
-  Name: { type: String},
-  Comment: { type: String},
-  date: { type: Date, default: Date.now },
-  
+const commentSchema = new mongoose.Schema({
+    rating: {
+        type: Number,
+        require: true
+    },
+    commentBy: {
+        type: String,
+        require: true
+    },
+    
+    timestamp: {
+        type: Date, 
+        default: Date.now,
+        require: true
+    },
+    comment: {
+        type: String,
+        require: false
+    }
 });
 
-const Comment = mongoose.model("Comment", commentSchema);
 
-module.exports = Comment;
+module.exports = mongoose.model("Comments", commentSchema);
