@@ -8,11 +8,12 @@
   cursor: pointer;
 }
 .card{
-  width: 300px;
+  width: 200px;
 }
 .card .card-image .card-title{
   color: black;
-  font-weight: 400
+  font-weight: 200;
+  
 }
 .cart{
   margin-top:40px;
@@ -36,3 +37,4 @@
 .item-desc{
   align-self:center;
 }
+
