@@ -40,14 +40,17 @@ import LoginForm from './components/login-form'
 class App extends Component {
   constructor() {
     super()
+   
     this.state = {
       loggedIn: false,
-      username: null
+      username: null,
+      
     }
 
     this.getUser = this.getUser.bind(this)
     this.componentDidMount = this.componentDidMount.bind(this)
     this.updateUser = this.updateUser.bind(this)
+  
   }
 
   componentDidMount() {
@@ -124,9 +127,6 @@ class App extends Component {
 }
 
 export default App;
-
-
-
 
 
 
