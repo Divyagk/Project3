@@ -10,7 +10,7 @@ const home = props => {
 			// outer most div
 			<div>
 				<div className="home">
-					<h1> Brutal Boss </h1>
+					<h1>fashion house </h1>
 					{/* <h1> Brutal Boss </h1>
 					<p>Current User:</p>
 					<code>
@@ -83,10 +83,10 @@ const home = props => {
 		return (
 			<div>
 				<div className="home">
-					<h1> Brutal Boss </h1>
+					<h1> Fashion House </h1>
 				</div>
 				<div className="loggedOut">
-					<h1> WELCOME to Brutal Boss </h1>
+					<h1> WELCOME to Fashion House </h1>
 					<br />
 					{/* <h1> you are logged out </h1> */}
 					{/* box links  */}
@@ -95,18 +95,18 @@ const home = props => {
 						<div className="row">
 							<div className="col-md-6 col-lg-4">
 								<div className="learnBox">
-									<a><p>Learn About Your Peers</p></a>
+									<a><p></p></a>
 								</div>
 							</div>
 							<div className="col-md-6 col-lg-4">
 								<div className="teachBox">
-									<a ><p>Teach Your Peers About You</p></a>
+									<a ><p></p></a>
 
 								</div>
 							</div>
 							<div className="col-md-6 col-lg-4">
 								<div className="feelingsBox">
-									<a ><p>Get Your Feelings Hurt</p></a>
+									<a ><p></p></a>
 
 								</div>
 							</div>
