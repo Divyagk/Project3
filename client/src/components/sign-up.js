@@ -29,7 +29,11 @@ class Signup extends Component {
 		//request to server to add a new username/password
 		axios.post('/user/', {
 			username: this.state.username,
-			password: this.state.password
+				password: this.state.password,
+				firstName: this.state.firstName,
+				lastName: this.state.lastName,
+				email: this.state.email,
+				photos: this.state.photos
 		})
 			.then(response => {
 				console.log(response)
@@ -69,7 +73,19 @@ class Signup extends Component {
 									onChange={this.handleChange}
 								/>
 							</div>
-
+							<div className="form-group col-md-3">
+								<label htmlFor="email"> </label>
+								<input
+									type="email"
+									className="form-control"
+									id="inputEmail"
+									placeholder="Email"
+									name="email"
+									value={this.state.email}
+									onChange={this.handleChange}
+								/>
+							</div>
+					
 							<div className="form-group">
 								<label className="form-label" htmlFor="password"> </label>
 								<input className="form-input"
@@ -80,6 +96,8 @@ class Signup extends Component {
 									onChange={this.handleChange}
 								/>
 							</div>
+							
+						
 
 							<div className="form-group ">
 								<button
