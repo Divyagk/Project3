@@ -7,10 +7,13 @@ const Navbar = () => {
 
     return (
         <nav className="nav-wrapper">
+                      
+
             <div className="container">
 
-
+            <img className="teamMatePic" src={require("../images/1.jpg")} width="7%"></img>
                 <Link to="/" className="brand-logo" >Fashion House</Link>
+
 
                 <ul className="right">
             
