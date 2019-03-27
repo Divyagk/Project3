@@ -11,7 +11,7 @@ const Navbar = () => {
 
             <div className="container">
 
-            <img className="teamMatePic" src={require("../images/1.jpg")} width="7%"></img>
+            <img className="teamMatePic" src={require("../images/1.jpg")} width="4.4%"></img>
                 <Link to="/" className="brand-logo" >Fashion House</Link>
 
 
