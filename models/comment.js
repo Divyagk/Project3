@@ -19,7 +19,9 @@ const commentSchema = new mongoose.Schema({
     comment: {
         type: String,
         require: false
-    }
+    },
+    
+    postId: {type: String}
 });
 
 

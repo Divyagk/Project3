@@ -24,6 +24,7 @@ const Navbar = () => {
                     <li><Link to="/signup">Signup</Link></li>
                     <li><Link to="/login">Log in</Link></li>
                     
+                    
                     <li><Link to="/cart">My cart</Link></li>
 
                     <li><Link to="/cart"><i className="material-icons">shopping_cart</i></Link></li>
