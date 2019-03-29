@@ -29,7 +29,7 @@ const home = props => {
 							<img className="teamMatePic" src={require("../images/item5.jpg")} alt="Sam thumbnail"></img>
 							<img className="teamMatePic" src={require("../images/item9.jpg")} alt="Greg thumbnail"></img>
 							<img className="teamMatePic" src={require("../images/item15.jpg")} alt="Greg thumbnail"></img>
-							<img className="teamMatePic" src={require("../images/item2.jpg")} alt="Greg thumbnail"></img>
+							<img className="teamMatePic" src={require("../images/item17.jpg")} alt="Greg thumbnail"></img>
 							<img className="teamMatePic" src={require("../images/item1.jpg")} alt="Greg thumbnail"></img>
 						
 						</div>
