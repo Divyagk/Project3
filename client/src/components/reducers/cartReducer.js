@@ -50,7 +50,7 @@ const initState = {
         { id: 20, title: '', desc: "Women's Hight Waisted Butt Lift Stretch Ripped Skinny Jeans ", price: 42, img: Item20 },
         { id: 21, title: '', desc: "Women's Sheer Chiffon Blouse Loose Tops Kimono Floral Print Cardigan ", price: 16, img: Item21 },
         { id: 22, title: '', desc: "Women's Long Open Front Drape Lightweight Duster High Low Hem Maxi Long Sleeve Cardigan ", price: 27, img: Item22 },
-        { id: 23, title: '', desc: "A-Line Pleated Vintage Skirts for Women ", price: 26, img: Item23 },
+        { id: 23, title: '', desc: "Women's 3/4 Sleeve Cardigans Striped Printed Open Front Draped Kimono Loose Cardigan ", price: 29, img: Item23 },
         { id: 24, title: '', desc: "A-Line Pleated Vintage Skirts for Women ", price: 26, img: Item24 }
         
     
