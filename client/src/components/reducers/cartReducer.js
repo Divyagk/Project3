@@ -21,7 +21,7 @@ import Item20 from '../../images/item20.jpg'
 import Item21 from '../../images/item21.jpg'
 import Item22 from '../../images/item22.jpg'
 import Item23 from '../../images/item23.jpg'
-import Item24 from '../../images/Item24.jpg'
+import Item24 from '../../images/item24.jpg'
 
 import { ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY, ADD_QUANTITY, ADD_SHIPPING } from '../actions/action-types/cart-actions'
 
@@ -51,7 +51,7 @@ const initState = {
         { id: 21, title: '', desc: "Women's Sheer Chiffon Blouse Loose Tops Kimono Floral Print Cardigan ", price: 16, img: Item21 },
         { id: 22, title: '', desc: "Women's Long Open Front Drape Lightweight Duster High Low Hem Maxi Long Sleeve Cardigan ", price: 27, img: Item22 },
         { id: 23, title: '', desc: "Women's 3/4 Sleeve Cardigans Striped Printed Open Front Draped Kimono Loose Cardigan ", price: 29, img: Item23 },
-        { id: 24, title: '', desc: "A-Line Pleated Vintage Skirts for Women ", price: 26, img: Item24 }
+        { id: 24, title: '', desc: "Women's Striped Snap Button Down Open Front Long Sleeve Contrast Color Casual Cardigans Sweaters ", price: 31, img: Item24 }
         
     
     
