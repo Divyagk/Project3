@@ -4,17 +4,58 @@ import Item3 from '../../images/item3.jpg'
 import Item4 from '../../images/item4.jpg'
 import Item5 from '../../images/item5.jpg'
 import Item6 from '../../images/item6.jpg'
+import Item7 from '../../images/item7.jpg'
+import Item8 from '../../images/item8.jpg'
+import Item9 from '../../images/item9.jpg'
+import Item10 from '../../images/item10.jpg'
+import Item11 from '../../images/item11.jpg'
+import Item12 from '../../images/item12.jpg'
+import Item13 from '../../images/item13.jpg'
+import Item14 from '../../images/item14.jpg'
+import Item15 from '../../images/item15.jpg'
+import Item16 from '../../images/item16.jpg'
+import Item17 from '../../images/item17.jpg'
+import Item18 from '../../images/item18.jpg'
+import Item19 from '../../images/item19.jpg'
+import Item20 from '../../images/item20.jpg'
+import Item21 from '../../images/item21.jpg'
+import Item22 from '../../images/item22.jpg'
+import Item23 from '../../images/item23.jpg'
+import Item24 from '../../images/Item24.jpg'
+
 import { ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY, ADD_QUANTITY, ADD_SHIPPING } from '../actions/action-types/cart-actions'
 
 
 const initState = {
     items: [
         { id: 1, title: '', desc: "Lark & Ro Women's Classic One Button Blazer", price: 69, img: Item1 },
-        { id: 2, title: '', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price: 80, img: Item2 },
-        { id: 3, title: '', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price: 120, img: Item3 },
-        { id: 4, title: '', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price: 260, img: Item4 },
-        { id: 5, title: '', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price: 160, img: Item5 },
-        { id: 6, title: '', desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.", price: 90, img: Item6 }
+        { id: 2, title: '', desc: "J. Crew Mercantile Women's Schoolboy Blazer", price: 80, img: Item2 },
+        { id: 3, title: '', desc: "A. Byer Juniors Long Sleeve Button Welt Jacket", price: 20, img: Item3 },
+        { id: 4, title: '', desc: "Meraki Women's Collarless Stretch Jersey Comfort Blazer, ex.", price: 60, img: Item4 },
+        { id: 5, title: '', desc: "Vintage 1950s Rockabilly Polka Dots Audrey Dress Retro Cocktail Dress", price: 35, img: Item5 },
+        { id: 6, title: '', desc: "Ever-Pretty Womens Cap Sleeve Lace Neckline Ruched Bust Evening Gown ", price: 158, img: Item6 },
+        { id: 7, title: '', desc: "Women’s Elegant Cocktail Maxi Dress Deep V Neck 3/4 Sleeve Vintage ", price: 43, img: Item7 },
+        { id: 8, title: '', desc: "Women's Sleeveless Floral Lace Slim Evening Cocktail Mini Dress for Party ", price: 36, img: Item8 },
+        { id: 9, title: '', desc: "Womens Chiffon Retro Long Maxi Skirt Vintage Dress ", price: 29, img: Item9 },
+        { id: 10, title: '', desc: "Women Full/Ankle Length Blending Maxi Chiffon Long Skirt Beach Skirt ", price: 25, img: Item10 },
+        { id: 11, title: '', desc: " Women's High Waist Fold Over Pocket Shirring Skirt ", price: 33, img: Item11 },
+        { id: 12, title: '', desc: "A-Line Pleated Vintage Skirts for Women ", price: 26, img: Item12 },
+        { id: 13, title: '', desc: "Women's Supersoft Terry Dolman-Sleeve V-Neck Tunic ", price: 37, img: Item13 },
+        { id: 14, title: '', desc: "Women's Jersey Long-Sleeve Scoop Neck Tunic ", price: 19, img: Item14 },
+        { id: 15, title: '', desc: "Women's Casual Long Sleeve Round Neck Loose Tunic T Shirt Blouse Tops ", price: 24, img: Item15 },
+        { id: 16, title: '', desc: "Women's Fall Long Sleeve Side Split Loose Casual Pullover Tunic Tops ", price: 32, img: Item16 },
+        { id: 17, title: '', desc: "A-Line Pleated Vintage Skirts for Women ", price: 26, img: Item17 },
+        { id: 18, title: '', desc: "A-Line Pleated Vintage Skirts for Women ", price: 26, img: Item18 },
+        { id: 19, title: '', desc: "A-Line Pleated Vintage Skirts for Women ", price: 26, img: Item19 },
+        { id: 20, title: '', desc: "A-Line Pleated Vintage Skirts for Women ", price: 26, img: Item20 },
+        { id: 21, title: '', desc: "A-Line Pleated Vintage Skirts for Women ", price: 26, img: Item21 },
+        { id: 22, title: '', desc: "A-Line Pleated Vintage Skirts for Women ", price: 26, img: Item22 },
+        { id: 23, title: '', desc: "A-Line Pleated Vintage Skirts for Women ", price: 26, img: Item23 },
+        { id: 24, title: '', desc: "A-Line Pleated Vintage Skirts for Women ", price: 26, img: Item24 }
+        
+    
+    
+    
     ],
     addedItems: [],
     total: 0
