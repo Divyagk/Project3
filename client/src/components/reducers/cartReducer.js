@@ -28,10 +28,10 @@ import { ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY, ADD_QUANTITY, ADD_SHIPPING } fr
 
 const initState = {
     items: [
-        { id: 1, title: '', desc: "Lark & Ro Women's Classic One Button Blazer", price: 69, img: Item1 },
-        { id: 2, title: '', desc: "J. Crew Mercantile Women's Schoolboy Blazer", price: 80, img: Item2 },
-        { id: 3, title: '', desc: "A. Byer Juniors Long Sleeve Button Welt Jacket", price: 20, img: Item3 },
-        { id: 4, title: '', desc: "Meraki Women's Collarless Stretch Jersey Comfort Blazer, ex.", price: 60, img: Item4 },
+        { id: 1, title: '', desc: "Lark & Ro Women's Classic One Button Blazer", price: 69.99, img: Item1 },
+        { id: 2, title: '', desc: "J. Crew Mercantile Women's Schoolboy Blazer", price: 80.87, img: Item2 },
+        { id: 3, title: '', desc: "A. Byer Juniors Long Sleeve Button Welt Jacket", price: 20.98, img: Item3 },
+        { id: 4, title: '', desc: "Meraki Women's Collarless Stretch Jersey Comfort Blazer", price: 60.37, img: Item4 },
         { id: 5, title: '', desc: "Vintage 1950s Rockabilly Polka Dots Audrey Dress Retro Cocktail Dress", price: 35, img: Item5 },
         { id: 6, title: '', desc: "Ever-Pretty Womens Cap Sleeve Lace Neckline Ruched Bust Evening Gown ", price: 158, img: Item6 },
         { id: 7, title: '', desc: "Women’s Elegant Cocktail Maxi Dress Deep V Neck 3/4 Sleeve Vintage ", price: 43, img: Item7 },
