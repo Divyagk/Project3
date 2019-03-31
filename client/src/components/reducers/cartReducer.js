@@ -28,7 +28,7 @@ import { ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY, ADD_QUANTITY, ADD_SHIPPING } fr
 
 const initState = {
     items: [
-        { id: 1, title: 'ADD TO Cart', desc: "Lark & Ro Women's Classic One Button Blazer", price: 69.99,img: Item1 },
+        { id: 1, title: '', desc: "Lark & Ro Women's Classic One Button Blazer", price: 69.99,img: Item1 },
         { id: 2, title: '', desc: "J. Crew Mercantile Women's Schoolboy Blazer", price: 80.87, img: Item2 },
         { id: 3, title: '', desc: "A. Byer Juniors Long Sleeve Button Welt Jacket", price: 20.98, img: Item3 },
         { id: 4, title: '', desc: "Meraki Women's Collarless Stretch Jersey Comfort Blazer", price: 60.37, img: Item4 },
