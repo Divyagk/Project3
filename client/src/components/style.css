@@ -3,6 +3,7 @@
     padding: 10px;
     margin-top: 10%;
     color: darkred;
+    
 }
 
 .LogInContainer {
@@ -36,5 +37,3 @@ input {
     display: block;
     width: 80%;
 }
-
-

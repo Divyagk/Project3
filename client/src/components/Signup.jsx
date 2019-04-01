@@ -105,8 +105,7 @@ class Signup extends Component {
 								<button
 									className="btn btn-primary col-mr-auto"
 									onClick={this.handleSubmit}
-									type="submit"
-								>Submit</button>
+									type="submit">Submit</button>
 							</div>
 						</form>
 					</div>
