@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import "../components/mainpage.css"
+// import "../components/mainpage.css"
 // TODO - add proptypes
 
 const home = props => {
