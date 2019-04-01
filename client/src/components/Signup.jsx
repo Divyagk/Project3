@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
 import axios from 'axios'
@@ -22,12 +23,13 @@ class Signup extends Component {
 		})
 	}
 	handleSubmit(event) {
+		event.preventDefault();
 		console.log('sign-up handleSubmit, username: ')
 		console.log(this.state.username)
-		event.preventDefault();
+		
 
 		//request to server to add a new username/password
-		axios.post('/user/', {
+		axios.post('//localhost:3001/signup', {
 			username: this.state.username,
 				password: this.state.password,
 				firstName: this.state.firstName,
