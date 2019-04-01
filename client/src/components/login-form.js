@@ -63,6 +63,7 @@ class LoginForm extends Component {
                <div className="LogInContainer"> 
                 <div className="loginCss">
                     <h4>Login</h4>
+                    <br></br>
                     <form className="form-horizontal">
                         <div className="form-group">
                                 <label className="form-label" htmlFor="username"></label>

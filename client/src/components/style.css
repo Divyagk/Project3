@@ -12,6 +12,18 @@
     margin-top: 10%;
     color: darkred;
 }
+ .form-group{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    /* background-color: rgb(179, 236, 250); */
+    margin-top: -20px;
+    margin-bottom: 40px;
+
+
+}
 
 input {
     text-align: center;
@@ -41,3 +53,16 @@ input {
 
 
 
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: white;
+    /* background-image: url("../images/2.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
