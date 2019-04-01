@@ -46,12 +46,12 @@ const initState = {
         { id: 16, title: '', desc: "Women's Fall Long Sleeve Side Split Loose Casual Pullover Tunic Tops ", price: 32.99, img: Item16 },
         { id: 17, title: '', desc: "Levi Strauss & Co. Gold Label Women's Totally Shaping Skinny Jean ", price: 30.00, img: Item17 },
         { id: 18, title: '', desc: "Levi Strauss & Co. Gold Label Women's Modern Skinny Jeans ", price: 24.93, img: Item18 },
-        { id: 19, title: '', desc: "Women's Barbara Bootcut Jeans ", price: 57, img: Item19 },
-        { id: 20, title: '', desc: "Women's Hight Waisted Butt Lift Stretch Ripped Skinny Jeans ", price: 42, img: Item20 },
-        { id: 21, title: '', desc: "Women's Sheer Chiffon Blouse Loose Tops Kimono Floral Print Cardigan ", price: 16, img: Item21 },
-        { id: 22, title: '', desc: "Women's Long Open Front Drape Lightweight Duster High Low Hem Maxi Long Sleeve Cardigan ", price: 27, img: Item22 },
-        { id: 23, title: '', desc: "Women's 3/4 Sleeve Cardigans Striped Printed Open Front Draped Kimono Loose Cardigan ", price: 29, img: Item23 },
-        { id: 24, title: '', desc: "Women's Striped Snap Button Down Open Front Long Sleeve Contrast Color Casual Cardigans Sweaters ", price: 31, img: Item24 }
+        { id: 19, title: '', desc: "Women's Barbara Bootcut Jeans ", price: 57.99, img: Item19 },
+        { id: 20, title: '', desc: "Women's Hight Waisted Butt Lift Stretch Ripped Skinny Jeans ", price: 42.90, img: Item20 },
+        { id: 21, title: '', desc: "Women's Sheer Chiffon Blouse Loose Tops Kimono Floral Print Cardigan ", price: 16.00, img: Item21 },
+        { id: 22, title: '', desc: "Women's Long Open Front Drape Lightweight Duster High Low Hem Maxi Long Sleeve Cardigan ", price: 27.98, img: Item22 },
+        { id: 23, title: '', desc: "Women's 3/4 Sleeve Cardigans Striped Printed Open Front Draped Kimono Loose Cardigan ", price: 29.00, img: Item23 },
+        { id: 24, title: '', desc: "Women's Striped Snap Button Down Open Front Long Sleeve Contrast Color Casual Cardigans Sweaters ", price: 31.99, img: Item24 }
         
     
     
