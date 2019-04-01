@@ -24,13 +24,13 @@ const home = props => {
 				<div className="col">
 					<div className="row-md-6 col-lg-4">
 						<div className="teamMate">
-							<img className="teamMatePic" src={require("../images/item1.jpg")} alt="Greg thumbnail"></img>
+							<img  src={require("../images/item1.jpg")} alt="image1"></img>
 
-							<img className="teamMatePic" src={require("../images/item5.jpg")} alt="Sam thumbnail"></img>
-							<img className="teamMatePic" src={require("../images/item9.jpg")} alt="Greg thumbnail"></img>
-							<img className="teamMatePic" src={require("../images/item15.jpg")} alt="Greg thumbnail"></img>
-							<img className="teamMatePic" src={require("../images/item17.jpg")} alt="Greg thumbnail"></img>
-							<img className="teamMatePic" src={require("../images/item21.jpg")} alt="Greg thumbnail"></img>
+							<img  src={require("../images/item5.jpg")} alt="image2"></img>
+							<img src={require("../images/item9.jpg")} alt="image3"></img>
+							<img  src={require("../images/item15.jpg")} alt="image4"></img>
+							<img src={require("../images/item17.jpg")} alt="image5"></img>
+							<img src={require("../images/item21.jpg")} alt="image5"></img>
 						
 						</div>
 					</div>
