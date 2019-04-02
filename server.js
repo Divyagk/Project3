@@ -10,6 +10,7 @@ const MongoStore = require('connect-mongo')(session)
 const passport = require('./passport');
 const user = require('./routes/user')
 // const api = require('./routes/api')
+const routes = require("./routes");
 
 
 app.use(function (req, res, next) {
@@ -76,7 +77,7 @@ dbm.once("open", function() {
 
 app.use(user);
 // app.use( api);
-// app.use('/', routes)
+// app.use( routes)
 
 // Start the API server
 app.listen(PORT, function() {
