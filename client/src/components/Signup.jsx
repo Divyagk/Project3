@@ -86,6 +86,7 @@ class Signup extends Component {
 
 							<div className="form-group">
 								<label className="form-label" htmlFor="username"></label>
+								
 								<input className="form-input"
 									type="text"
 									id="username"
