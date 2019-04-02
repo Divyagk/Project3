@@ -75,7 +75,7 @@ dbm.once("open", function() {
 
 
 app.use(user);
-// app.use('/api', api)
+// app.use( api);
 // app.use('/', routes)
 
 // Start the API server

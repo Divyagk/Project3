@@ -104,6 +104,7 @@ class App extends Component {
                   signup={this.signup}
                 />}
             />
+
             <Route
               path="/login"
               render={() =>
@@ -111,6 +112,9 @@ class App extends Component {
                   updateUser={this.updateUser}
                 />}
             />
+
+
+
            
           </Switch>
         </div>
