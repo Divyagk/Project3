@@ -5,6 +5,21 @@ import axios from 'axios'
 
 import './style.css'
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Signup extends Component {
 	constructor() {
 		super()
