@@ -27,8 +27,8 @@
     clear: both;
     text-align: center;  
    
- background-image: url("../images/0.jpg");
-    /* background-color: rgb(236, 99, 99); */
+ /* background-image: url("../images/0.jpg"); */
+    background-color:rgb(190, 107, 107);
     margin-top: -20px;
     margin-bottom: 40px;
 
