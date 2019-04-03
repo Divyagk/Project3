@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { addToCart } from './actions/cartActions'
-
+import './style.css'
  class Home extends Component{
     
     handleClick = (id)=>{
         this.props.addToCart(id); 
+        
     }
 
     render(){
@@ -21,6 +22,9 @@ import { addToCart } from './actions/cartActions'
                         <div className="card-content">
                             <p>{item.desc}</p>
                             <p><b>Price: ${item.price}</b></p>
+                    
+                            <button class="carts" type="button"  onClick={()=>{this.handleClick(item.id)}} >ADD TO CART</button>
+                        
                         </div>
                  </div>
 

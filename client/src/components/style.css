@@ -128,3 +128,23 @@ label {
 .commentForm {
     text-align:center;
 }
+
+/* styling add to cart button */
+
+.carts{
+    background-color: #1b1a20;
+    color: #fff;
+    padding: 15px 0;
+    
+    margin-top: 10px;
+    cursor: pointer;
+    width:100%;
+    -webkit-transition: background-color .2s;
+    transition: background-color .2s;
+}
+
+
+
+
+
+
