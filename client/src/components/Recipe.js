@@ -16,6 +16,8 @@ class Recipe extends Component{
             this.props.substractShipping();
         }
     }
+    handleCheckout= (e)=>{}
+
 
     render(){
   
@@ -32,6 +34,7 @@ class Recipe extends Component{
                     </div>
                     <div className="checkout">
                         <button className="waves-effect waves-light btn" >Checkout</button>
+                        
                     </div>
                  </div>
         )
