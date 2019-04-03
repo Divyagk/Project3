@@ -6,6 +6,8 @@ import './style.css'
     
     handleClick = (id)=>{
         this.props.addToCart(id); 
+       
+       
         
     }
 
