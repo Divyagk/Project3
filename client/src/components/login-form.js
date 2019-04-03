@@ -43,8 +43,8 @@ class LoginForm extends Component {
                     })
                     // update the state to redirect to home
                     this.setState({
-                        redirectTo: '/'
-                        // redirectTo:'/forum'
+                        // redirectTo: '/'
+                        redirectTo:'/'
                     })
                 }
             }).catch(error => {
@@ -65,6 +65,7 @@ class LoginForm extends Component {
                 <div className="loginCss">
                     <h4>Login</h4>
                     <br></br>
+                    
                     <form className="form-horizontal">
                         <div className="form-group">
                                 <label className="form-label" htmlFor="username"></label>
@@ -95,6 +96,7 @@ class LoginForm extends Component {
                                 type="submit">Submit</button>
                         </div>
                     </form>
+                    
                 </div>
                </div> 
             )

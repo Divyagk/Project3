@@ -11,6 +11,7 @@ import axios from 'axios'
 import Signup from './components/Signup'
 import LoginForm from './components/login-form'
 
+import Comments from './components/comments'
 
 
 
@@ -112,8 +113,11 @@ class App extends Component {
                   updateUser={this.updateUser}
                 />}
             />
+ 
 
-
+ <Route
+          exact path="/story/:id"
+          component={Comments} />
 
            
           </Switch>
