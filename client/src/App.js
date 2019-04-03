@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import Navbar from './components/Navbar'
-import Home from './components/Home'
-import Cart from './components/Cart'
-import home from './components/mainpage'
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Cart from './components/Cart';
+import home from './components/mainpage';
 
 
-import axios from 'axios'
-import Signup from './components/Signup'
-import LoginForm from './components/login-form'
+import axios from 'axios';
+import Signup from './components/Signup';
+import LoginForm from './components/login-form';
 
-import Comments from './components/comments'
+import Comments from './components/comments';
 
 
 

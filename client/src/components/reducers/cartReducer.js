@@ -31,7 +31,7 @@ import { ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY, ADD_QUANTITY, ADD_SHIPPING } fr
 
 const initState = {
     items: [
-        { id: 1, title: '', desc: "Lark & Ro Women's Classic One Button Blazer", price: 69.99,img: Item1},
+        { id: 1, title: '', desc: "Lark & Ro Women's Classic One Button Blazer", price: 69.99, img: Item1 },
         { id: 2, title: '', desc: "J. Crew Mercantile Women's Schoolboy Blazer", price: 80.87, img: Item2 },
         { id: 3, title: '', desc: "A. Byer Juniors Long Sleeve Button Welt Jacket", price: 20.98, img: Item3 },
         { id: 4, title: '', desc: "Meraki Women's Collarless Stretch Jersey Comfort Blazer", price: 60.37, img: Item4 },
@@ -55,14 +55,14 @@ const initState = {
         { id: 22, title: '', desc: "Women's Long Open Front Drape Lightweight Duster High Low Hem Maxi Long Sleeve Cardigan ", price: 27.98, img: Item22 },
         { id: 23, title: '', desc: "Women's 3/4 Sleeve Cardigans Striped Printed Open Front Draped Kimono Loose Cardigan ", price: 29.90, img: Item23 },
         { id: 24, title: '', desc: "Women's Striped Snap Button Down Open Front Long Sleeve Contrast Color Casual Cardigans Sweaters ", price: 31.99, img: Item24 }
-        
-    
-    
-    
+
+
+
+
     ],
     addedItems: [],
     total: 0
-    
+
 
 }
 
@@ -76,7 +76,7 @@ const cartReducer = (state = initState, action) => {
     if (action.type === ADD_TO_CART) {
         let addedItem = state.items.find(item => item.id === action.id)
         //check if the action id exists in the addedItems
-    
+
         let existed_item = state.addedItems.find(item => action.id === item.id)
         if (existed_item) {
             addedItem.quantity += 1
@@ -157,9 +157,9 @@ const cartReducer = (state = initState, action) => {
             total: state.total - 6
         }
     }
-    
+
 
     return state
 }
 
-export default cartReducer
+export default cartReducer;

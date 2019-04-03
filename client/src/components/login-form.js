@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
-import { Redirect } from 'react-router-dom'
-import axios from 'axios'
+import React, { Component } from 'react';
+import { Redirect } from 'react-router-dom';
+import axios from 'axios';
 // import "./forum.css";
-import './style.css'
+import './style.css';
 
 class LoginForm extends Component {
     constructor() {
@@ -104,4 +104,4 @@ class LoginForm extends Component {
     }
 }
 
-export default LoginForm
+export default LoginForm;

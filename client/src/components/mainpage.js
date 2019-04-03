@@ -28,7 +28,7 @@ const home = props => {
 					<div className="row-md-6 col-lg-4">
 						<div className="displayimages">
 							<h3>Our Products</h3>
-					
+
 							<img src={require("../images/item1.jpg")} alt="image1" width="15%" height="300vh;" ></img>
 							<img src={require("../images/item5.jpg")} alt="image2" width="15%" height="300vh;"></img>
 							<img src={require("../images/item9.jpg")} alt="image3" width="15%" height="300vh;"></img>
@@ -54,4 +54,4 @@ const home = props => {
 }
 
 
-export default home
+export default home;
