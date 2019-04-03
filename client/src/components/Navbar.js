@@ -1,5 +1,5 @@
 import React from 'react';
-import axios from 'axios'
+// import axios from 'axios'
 import { Link } from 'react-router-dom';
 
 
@@ -11,7 +11,7 @@ const Navbar = () => {
 
             <div className="container">
 
-                <img className="teamMatePic" src={require("../images/1.jpg")} width="4.4%"></img>
+                <img className="teamMatePic" src={require("../images/1.jpg")} alt="logo" width="4.4%"></img>
                 <Link to="/" className="brand-logo" >Fashion House</Link>
 
 

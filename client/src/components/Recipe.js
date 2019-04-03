@@ -19,7 +19,7 @@ class Recipe extends Component {
 
     proceedToCheckout = () => {
         const {
-            total,
+            
             productQuantity,
 
         } = this.props.total
