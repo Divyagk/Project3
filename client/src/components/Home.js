@@ -24,7 +24,7 @@ import './style.css'
                             <p>{item.desc}</p>
                             <p><b>Price: ${item.price}</b></p>
                     
-                            <button class="carts" type="button"  onClick={()=>{this.handleClick(item.id)}} >ADD TO CART</button>
+                            <button className="carts" type="button"  onClick={()=>{this.handleClick(item.id)}} >ADD TO CART</button>
                         
                         </div>
                  </div>
