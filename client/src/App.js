@@ -15,6 +15,8 @@ import Comments from './components/comments'
 
 
 
+
+
 // class App extends Component {
 //   render() {
 //     return (
@@ -45,6 +47,8 @@ class App extends Component {
     this.state = {
       loggedIn: false,
       username: null,
+      quickViewProduct: {},
+      modalActive: false
       
     }
 
@@ -83,6 +87,20 @@ class App extends Component {
     })
   }
 
+   // Open Modal
+   openModal(product) {
+    this.setState({
+      quickViewProduct: product,
+      modalActive: true
+    });
+  }
+  // Close Modal
+  closeModal() {
+    this.setState({
+      modalActive: false
+    });
+  }
+
   render() {
 
     return (
@@ -117,9 +135,11 @@ class App extends Component {
 
  <Route
           exact path="/story/:id"
-          component={Comments} />
+   component={Comments} />
 
-           
+
+
+
           </Switch>
         </div>
       </BrowserRouter>
