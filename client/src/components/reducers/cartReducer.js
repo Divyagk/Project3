@@ -50,7 +50,7 @@ const initState = {
         { id: 20, title: '', desc: "Women's Hight Waisted Butt Lift Stretch Ripped Skinny Jeans ", price: 42.90, img: Item20 },
         { id: 21, title: '', desc: "Women's Sheer Chiffon Blouse Loose Tops Kimono Floral Print Cardigan ", price: 16.80, img: Item21 },
         { id: 22, title: '', desc: "Women's Long Open Front Drape Lightweight Duster High Low Hem Maxi Long Sleeve Cardigan ", price: 27.98, img: Item22 },
-        { id: 23, title: '', desc: "Women's 3/4 Sleeve Cardigans Striped Printed Open Front Draped Kimono Loose Cardigan ", price: 29.00, img: Item23 },
+        { id: 23, title: '', desc: "Women's 3/4 Sleeve Cardigans Striped Printed Open Front Draped Kimono Loose Cardigan ", price: 29.90, img: Item23 },
         { id: 24, title: '', desc: "Women's Striped Snap Button Down Open Front Long Sleeve Contrast Color Casual Cardigans Sweaters ", price: 31.99, img: Item24 }
         
     
