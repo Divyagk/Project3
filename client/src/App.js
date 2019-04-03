@@ -17,6 +17,7 @@ import Comments from './components/comments'
 
 
 
+
 // class App extends Component {
 //   render() {
 //     return (
@@ -134,7 +135,7 @@ class App extends Component {
  
 
  <Route
-          exact path="/story/:id"
+          exact path="/comment"
    component={Comments} />
 
 

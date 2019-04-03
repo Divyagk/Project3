@@ -22,7 +22,9 @@ const Navbar = () => {
                     <li><Link to="/signup">Signup</Link></li>
                     <li><Link to="/login">Login</Link></li>
                     {/* <li><Link to="/login">About Us</Link></li> */}
-                    <li><Link to="/story/:id">comment</Link></li>
+                    <li><Link to="/comment">comment</Link></li>
+                    {/* <li><Link to="    /commentbox">comment</Link></li> */}
+                
 
 
                     <li><Link to="/cart">My cart</Link></li>
