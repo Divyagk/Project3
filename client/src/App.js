@@ -1,3 +1,4 @@
+    
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -24,10 +25,7 @@ class App extends Component {
    
     this.state = {
       loggedIn: false,
-      username: null,
-      quickViewProduct: {},
-      modalActive: false
-      
+      username: null
     }
 
     this.getUser = this.getUser.bind(this)
@@ -65,20 +63,7 @@ class App extends Component {
     })
   }
 
-   // Open Modal
-   openModal(product) {
-    this.setState({
-      quickViewProduct: product,
-      modalActive: true
-    });
-  }
-  // Close Modal
-  closeModal() {
-    this.setState({
-      modalActive: false
-    });
-  }
-
+  
   render() {
 
     return (
@@ -133,14 +118,6 @@ class App extends Component {
 }
 
 export default App;
-
-
-
-
-
-
-
-
 
 
 
