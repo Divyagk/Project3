@@ -1,5 +1,6 @@
 
 
+  
 
 import Item1 from '../../images/item1.jpg'
 import Item2 from '../../images/item2.jpg'
@@ -65,6 +66,7 @@ const initState = {
 
 
 }
+
 
 
 
