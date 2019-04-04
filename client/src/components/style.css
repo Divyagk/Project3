@@ -204,7 +204,7 @@ input {
    
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #171718;
+    background: #0c0c0c;
   }
    
   /* Position and sizing of clickable cross button */
@@ -215,13 +215,13 @@ input {
    
   /* Color/shape of close button cross */
   .bm-cross {
-    background: #bdc3c7;
+    background: #0a0a0a;
   }
    
   /* General sidebar styles */
   .bm-menu {
     /* background: rgba(0, 0, 0, 0.7); */
-    background-color: black;
+    background-color: rgb(167, 99, 99);
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
     text-align: left;
