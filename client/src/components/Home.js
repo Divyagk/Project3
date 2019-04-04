@@ -4,6 +4,7 @@ import { addToCart } from './actions/cartActions';
 import './style.css';
 import Modal from './Modal';
 
+
 class Home extends Component {
 
 
