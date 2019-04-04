@@ -1,13 +1,24 @@
 import React from 'react';
 // import axios from 'axios'
 import { Link } from 'react-router-dom';
+import { slide as Menu } from 'react-burger-menu';
 
+import './style.css'
 
 const Navbar = () => {
 
     return (
+        
         <nav className="nav-wrapper">
-
+<div>
+				<Menu>
+					<a className="menu-item" href="/Home">Home</a>
+                    <a className="menu-item" href="/">Shop</a>
+                    <a className="menu-item" href="/signup">Sign Up</a>
+					<a className="menu-item" href="/login">Login</a>
+					
+				</Menu>
+			</div>
 
             <div className="container">
 

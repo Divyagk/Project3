@@ -6,11 +6,11 @@
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
+    "react-burger-menu": "^2.6.8",
     "react-dom": "^16.8.6",
     "react-redux": "^6.0.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.8",
-   
     "redux": "^4.0.1"
   },
   "scripts": {

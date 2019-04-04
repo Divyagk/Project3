@@ -5,6 +5,7 @@ import './index.css'
 import cartReducer from './components/reducers/cartReducer';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
+import { slide as Menu } from 'react-burger-menu';
 
 
 
