@@ -101,8 +101,6 @@ class App extends Component {
    component={Comments} />
 
 
-
-
           </Switch>
         </div>
       </BrowserRouter>
