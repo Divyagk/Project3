@@ -16,6 +16,7 @@ const Navbar = () => {
                     <a className="menu-item" href="/">Shop</a>
                     <a className="menu-item" href="/signup">Sign Up</a>
 					<a className="menu-item" href="/login">Login</a>
+                    <a className="menu-item" href="/cart">My cart</a>
 					
 				</Menu>
 			</div>
@@ -34,10 +35,6 @@ const Navbar = () => {
                     <li><Link to="/login">Login</Link></li>
                     {/* <li><Link to="/login">About Us</Link></li> */}
                     <li><Link to="/comment">comment</Link></li>
-                    
-                
-
-
                     <li><Link to="/cart">My cart</Link></li>
 
                     <li><Link to="/cart"><i className="material-icons">shopping_cart</i></Link></li>
