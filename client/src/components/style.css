@@ -194,17 +194,17 @@ input {
 
 
 /* Position and sizing of burger button */
-/* .bm-burger-button {
+.bm-burger-button {
     position: absolute;
     width: 30px;
     height: 25px;
     left: 150px;
-    top: 33px;
-  } */
+    top: 20px;
+  }
    
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #373a47;
+    background: #171718;
   }
    
   /* Position and sizing of clickable cross button */
