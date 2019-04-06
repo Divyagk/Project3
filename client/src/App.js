@@ -14,11 +14,6 @@ import LoginForm from './components/login-form';
 
 import Comments from './components/comments';
 
-
-
-
-
-
 class App extends Component {
   constructor() {
     super()

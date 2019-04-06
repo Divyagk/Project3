@@ -29,22 +29,22 @@ class Home extends Component {
         this.props.addToCart(id);
 
     }
-    openModalHandler = () => {
-        this.setState({
-            isShowing: true
+    // openModalHandler = () => {
+    //     this.setState({
+    //         isShowing: true
 
 
-        });
+    //     });
 
 
 
-    }
+    // }
 
-    closeModalHandler = () => {
-        this.setState({
-            isShowing: false
-        });
-    }
+    // closeModalHandler = () => {
+    //     this.setState({
+    //         isShowing: false
+    //     });
+    // }
 
 
 
@@ -78,25 +78,7 @@ class Home extends Component {
 
                     </div>
 
-                    <div className="App">
-                        <div>
-
-                            {this.state.isShowing ? <div onClick={this.closeModalHandler} className="back-drop"></div> : null}
-
-                            <button className="open-modal-btn" onClick={this.openModalHandler}  >gfhf</button>
-
-
-                            <Modal
-                                className="modal"
-                                show={this.state.isShowing}
-                                close={this.closeModalHandler}>
-
-
-                                <button className="carts" type="button" onClick={() => { this.handleClick(item.id) }} >ADD TO CART</button> */}
-        </Modal>
-                        </div>
-                    </div>
-
+                    
 
 
                 </div>
@@ -146,3 +128,21 @@ export default connect(mapStateToProps, mapDispatchToProps)(Home);
 
 
 
+{/* <div className="App">
+                        <div>
+
+                            {this.state.isShowing ? <div onClick={this.closeModalHandler} className="back-drop"></div> : null}
+
+                            <button className="open-modal-btn" onClick={this.openModalHandler}  >gfhf</button>
+
+
+                            <Modal
+                                className="modal"
+                                show={this.state.isShowing}
+                                close={this.closeModalHandler}>
+
+
+                                <button className="carts" type="button" onClick={() => { this.handleClick(item.id) }} >ADD TO CART</button> */}
+        // </Modal>
+        //                 </div>
+        //             </div> */}
