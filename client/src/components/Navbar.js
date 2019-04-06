@@ -17,6 +17,8 @@ const Navbar = () => {
                     <a className="menu-item" href="/">Shop</a>
                     <a className="menu-item" href="/signup">Sign Up</a>
 					<a className="menu-item" href="/login">Login</a>
+                    
+                    <a className="menu-item" href="/comment">comment</a>
                     <a className="menu-item" href="/cart">My cart</a>
 					
 				</Menu>

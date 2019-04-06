@@ -42,7 +42,7 @@ class Comments extends Component {
 
     getComments = () => {
         axios.get('//localhost:3001/api/comment/'+ this.props.match.params.id).then(res => {
-            console.log('//localhost:3001/api/comment/'+ this.props.match.params.id)
+            console.log(this.props.match.params.id)
             console.log(res.data)
             this.setState({ comments: res.data })
         })
@@ -56,12 +56,14 @@ class Comments extends Component {
 
         axios.post('//localhost:3001/submit/'+ this.props.match.params.id, post).then(res => {
             console.log(res.data)
+            this.setState({
+                comment: ""
+            })
+            this.getComments()
+            
         })
 
-        this.setState({
-            comment: ""
-        })
-        this.getComments()
+        
     }
 
     render() {
@@ -71,6 +73,7 @@ class Comments extends Component {
                
                {/* {loggedIn ? ( */}
                     <form className="commentForm">
+                    <h3>Comment Here</h3>
                         <div className="col-12 mt-5">
                             <textarea className="form-input"
                                 type="text"
