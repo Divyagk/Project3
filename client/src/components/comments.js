@@ -65,13 +65,15 @@ class Comments extends Component {
 
         
     }
+    
 
     render() {
         // const loggedIn = this.state.loggedIn;
         return (
-            <div>
+            <div className="comment">
                
                {/* {loggedIn ? ( */}
+                
                     <form className="commentForm">
                     <h3>Comment Here</h3>
                         <div className="col-12 mt-5">
