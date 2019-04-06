@@ -20,7 +20,7 @@ class Comments extends Component {
     }
 
     getUser() {
-        axios.get('//localhost:3001/user/').then(response => {
+        axios.get('/').then(response => {
             console.log('Get user response: ')
             console.log(response.data)
             if (response.data.user) {
@@ -41,7 +41,8 @@ class Comments extends Component {
     }
 
     getComments = () => {
-        axios.get("/api/comment/" + this.props.match.params.id).then(res => {
+        axios.get('//localhost:3001/api/comment/'+ this.props.match.params.id).then(res => {
+            console.log('//localhost:3001/api/comment/'+ this.props.match.params.id)
             console.log(res.data)
             this.setState({ comments: res.data })
         })
@@ -49,11 +50,11 @@ class Comments extends Component {
 
     handleSubmit(event) {
         event.preventDefault()
-        console.log("hi");
+        // console.log("hi");
 
         const post = {  commentBy: this.state.username, comment: this.state.comment, postId: this.props.match.params.id }
 
-        axios.post("/submit/" + this.props.match.params.id, post).then(res => {
+        axios.post('//localhost:3001/submit/'+ this.props.match.params.id, post).then(res => {
             console.log(res.data)
         })
 
@@ -64,11 +65,11 @@ class Comments extends Component {
     }
 
     render() {
-        const loggedIn = this.state.loggedIn;
+        // const loggedIn = this.state.loggedIn;
         return (
             <div>
                
-                {loggedIn ? (
+               {/* {loggedIn ? ( */}
                     <form className="commentForm">
                         <div className="col-12 mt-5">
                             <textarea className="form-input"
@@ -88,9 +89,9 @@ class Comments extends Component {
                             onClick={(event) => this.handleSubmit(event)}
                             type="submit">Submit</button>
                     </form>
-                ) : (
-                        <Link to={"/login"} className="btn btn-primary" id="logintoadd" role="button">Login to add comments</Link>
-                    )}
+                {/* ) : ( */}
+                        {/* <Link to={"/login"} className="btn btn-primary" id="logintoadd" role="button">Login to add comments</Link> */}
+                    {/* )} */}
             </div>
         )
     }
