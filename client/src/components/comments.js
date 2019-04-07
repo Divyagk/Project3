@@ -41,7 +41,7 @@ class Comments extends Component {
     }
 
     getComments = () => {
-        axios.get('//localhost:3001/api/comment/'+ this.props.match.params.id).then(res => {
+        axios.get('/api/comment/'+ this.props.match.params.id).then(res => {
             console.log(this.props.match.params.id)
             console.log(res.data)
             this.setState({ comments: res.data })
@@ -54,7 +54,7 @@ class Comments extends Component {
 
         const post = {  commentBy: this.state.username, comment: this.state.comment, postId: this.props.match.params.id }
 
-        axios.post('//localhost:3001/submit/'+ this.props.match.params.id, post).then(res => {
+        axios.post('/submit/'+ this.props.match.params.id, post).then(res => {
             console.log(res.data)
             this.setState({
                 comment: ""
