@@ -54,15 +54,16 @@ app.use(express.static("client/build"));
 // app.use(routes);
 
 
-
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/project";
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 // Connect to the Mongo DB
-var databaseUri = "mongodb://localhost/project";
+// var databaseUri = "mongodb://localhost/project";
 
-if (process.env.MONGODB_URI) {
-  mongoose.connect(process.env.MONGODB_URI);
-} else {
-  mongoose.connect(databaseUri);
-};
+// if (process.env.MONGODB_URI) {
+//   mongoose.connect(process.env.MONGODB_URI);
+// } else {
+//   mongoose.connect(databaseUri);
+// };
 
 var dbm = mongoose.connection;
 
