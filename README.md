@@ -15,7 +15,7 @@ Fashion House  is a online clothing shopping portal ,a small version of amazon l
 
 -Passport[for authentication]
 
--Bootstrap
+-Bootstrap,Materialize[For styling]
 
 -NodeJS
 
